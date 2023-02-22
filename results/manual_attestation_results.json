@@ -1,0 +1,26 @@
+[
+  {
+    "control_id": "V-40792",
+    "explanation": "Verified that the server-side session management is configured correctly.",
+    "frequency": "3m",
+    "status": "passed",
+    "updated": "2023-02-14T17:33:36.895Z",
+    "updated_by": "Gary Rouse"
+  },
+  {
+    "control_id": "V-41674",
+    "explanation": "The log data and records from the NGINX web server must be backed up onto a different system or media.",
+    "frequency": "3m",
+    "status": "failed",
+    "updated": "2023-02-14T17:35:05.625Z",
+    "updated_by": "Gary Rouse"
+  },
+  {
+    "control_id": "V-55975",
+    "explanation": "The NGINX web server must use a logging mechanism that is configured to provide a warning to the ISSO and SA when allocated record storage volume reaches 75% of maximum log record storage capacity.",
+    "frequency": "3m",
+    "status": "failed",
+    "updated": "2023-02-14T17:36:34.268Z",
+    "updated_by": "Gary Rouse"
+  }
+]
