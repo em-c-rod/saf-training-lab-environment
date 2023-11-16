@@ -3,7 +3,7 @@ control 'nginx-version' do
   title 'NGINX version'
   desc 'The required version of NGINX should be installed.'
   describe nginx do
-    its('version') { should cmp >= input('nginx_version') }
+    its('version') { should cmp <= input('nginx_version') }
   end
 end
 
