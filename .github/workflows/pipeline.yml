@@ -56,7 +56,7 @@ jobs:
         with:
           path: results/pipeline_run.json
 
-	  - name: VERIFY - Display our results summary 
+	    - name: VERIFY - Display our results summary 
         uses: mitre/saf_action@v1
         with:
           command_string: "view summary -i results/pipeline_run.json"
